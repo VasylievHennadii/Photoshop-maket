@@ -1,99 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
-  <title>Landing</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="css/style.css">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="wrapper_fix">
-    <div class="wrapper">
-      <header class="header">
-        <div class="container">
-          <nav class="header_nav">
-            <a href="#" class="logo">
-              <img src="img/logo-img.png" alt="rhytm">
-            </a>
-            <ul class="header_nav-list">
-              <li class="header_nav-item">
-                  <a href="" class="header_nav-link text-uppercase">Home</a>
-              </li>
-              <li class="header_nav-item">
-                  <a href="" class="header_nav-link text-uppercase">About</a>
-              </li>
-              <li class="header_nav-item">
-                  <a href="" class="header_nav-link text-uppercase">Services</a>
-              </li>
-              <li class="header_nav-item">
-                  <a href="" class="header_nav-link text-uppercase ">work</a>
-              </li>
-              <li class="header_nav-item">
-                  <a href="" class="header_nav-link text-uppercase">contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <main class="main">
-        <div class="hero" style="background-image: url('img/hero-bg.jpg')">
-          <div class="container hero_container">
-            <div class="hero_content">
-              <h1>thomas rhytm</h1>
-              <div class="hero_text">Extraordinary art director & creative minimalism lover</div>
-            </div>
-          </div>
-        </div>
-        <section class="standart-section">
-            <div class="container">
-                <h3 class="catalog-studio text-uppercase text-left">about studio</h3>
-                <div class="row d-flex flex-wrap">
-                    <div class="col-4">
-                        <div class="hero-tile">
-                            <h6 class="about-hero">Design is not making beauty, beauty emerges from selection, affinities, integration, love. <br> — Louis Kahn</h6>
-                            <a href="#" class="hero-tile-img">
-                                <img src="img/Thomas-Rhythm.jpg" alt="hero">
-                            </a>
-                            <div class="name-hero text-uppercase text-center d-flex flex-column">
-                                <span>Thomas Rhythm </span>
-                                <span>Art Director</span>
+    <div class="wrapper_fix">
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <nav class="header_nav">
+                        <a href="#" class="logo">
+                            <img src="img/logo-img.png" alt="rhythm">
+                        </a>
+                        <ul class="header_nav-list text-uppercase">
+                            <li class="header_nav-item"><a href="" class="header_nav-link">Home</a>
+                            </li>
+                            <li class="header_nav-item"><a href="#about" class="header_nav-link">About</a>
+                            </li>
+                            <li class="header_nav-item"><a href="#Services" class="header_nav-link">Services</a>
+                            </li>
+                            <li class="header_nav-item"><a href="#portfolio" class="header_nav-link">work</a>
+                            </li>
+                            <li class="header_nav-item"><a href="" class="header_nav-link">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main class="main">
+                <div class="hero" style="background-image: url('img/hero-bg.jpg');">
+                    <div class="container hero_container">
+                        <div class="hero_content">
+                            <h1>thomas rhythm</h1>
+                            <div class="hero_text">Extraordinary art director & creative minimalism lover</div>
+                        </div>
+                    </div>
+                    <a href="#about" class="hero_down"><i class="fas fa-chevron-down"></i></a>
+                </div>
+                <section id="about" class="about section">
+                    <div class="container">
+                        <h2 class="section_title">about studio</h2>
+                        <div class="row">
+                            <div class="col--1-3">
+                                <blockquote >
+                                    <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                    <cite>— Louis Kahn</cite>
+                                </blockquote>
+                            </div>
+                            <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
+                            <div class="col--1-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe suscipit maiores consequatur laudantium odit similique nisi earum cumque mollitia perferendis esse nulla iure exercitationem architecto a at commodi, velit eos, nemo alias ad, sit praesentium.</div>
+                        </div>
+                        <div class="row">
+                            <div class="col--1-3">
+                                <img src="img/Thomas-Rhythm.jpg" alt="foto">
+                                <div class="name-hero text-uppercase text-center d-flex flex-column">
+                                   <span class="name">Thomas Rhythm</span>
+                                   <span class="title">Art Director</span>
+                                </div>
+                            </div>
+                            <div class="col--1-3">
+                                <img src="img/Marta-Laning.jpg" alt="foto">
+                                <div class="name-hero text-uppercase text-center d-flex flex-column">
+                                    <span class="name">marta laning</span>
+                                    <span class="title">web engineer</span>
+                                </div>
+                            </div>
+                            <div class="col--1-3">
+                                <img src="img/Steve-Anders.jpg" alt="foto">
+                                <div class="name-hero text-uppercase text-center d-flex flex-column">
+                                    <span class="name">Steve ANDERS</span>
+                                    <span class="title">Developer</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="hero-tile">
-                            <h6 class="about-hero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae, sunt animi delectus, vel asperiores ratione labore minus atque neque voluptatum, praesentium sit cupiditate perspiciatis.</h6>
-                            <a href="#" class="hero-tile-img">
-                                <img src="img/Marta-Laning.jpg" alt="hero">
-                            </a>
-                            <div class="name-hero text-uppercase text-center d-flex flex-column">
-                                <span>marta laning </span>
-                                <span>web engineer</span>
+                </section>
+                <section id="Services" class="section services">
+                    <div class="container">
+                        <h2 class="section_title text-center">Services</h2>
+                        <div class="tabs_holder">
+                            <ul class="tabs_list">
+                                <li class="tabs_list-item flex-column">
+                                    <img src="img/branding.png" width="70" height="90" alt="logo">
+                                    <a href="#tab-1" class="tabs_link js_tabs-link tab-active">branding</a>
+                                </li>
+                                <li class="tabs_list-item flex-column">
+                                    <img src="img/web-design.png" width="70" height="90" alt="logo">
+                                    <a href="#tab-2" class="tabs_link js_tabs-link">web design</a>
+                                </li>
+                                <li class="tabs_list-item flex-column">
+                                    <img src="img/graphic-design.png" width="70" height="90" alt="logo">
+                                    <a href="#tab-3" class="tabs_link js_tabs-link">graphic design</a>
+                                </li>
+                                <li class="tabs_list-item flex-column">
+                                    <img src="img/development.png" width="70" height="90" alt="logo">
+                                    <a href="#tab-4" class="tabs_link js_tabs-link">development</a>
+                                </li>
+                                <li class="tabs_list-item flex-column ">
+                                    <img src="img/photography.png" width="70" height="90" alt="logo">
+                                    <a href="#tab-5" class="tabs_link js_tabs-link">photography</a>
+                                </li>
+                            </ul>
+                            <div class="tabs_content">
+                                <div id="tab-1" class="tabs_content-item tab-active">
+                                    <div class="row">
+                                        <div class="col--1-3">
+                                            <blockquote >
+                                                <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                                <cite>— Louis Kahn</cite>
+                                            </blockquote>
+                                        </div>
+                                        <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
+                                        <div class="col--1-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe suscipit maiores consequatur laudantium odit similique nisi earum cumque mollitia perferendis esse nulla iure exercitationem architecto a at commodi, velit eos, nemo alias ad, sit praesentium.</div>
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tabs_content-item">
+                                    <div class="row">
+                                        <div class="col--1-3">
+                                            <blockquote >
+                                                <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                                <cite>— Louis Kahn</cite>
+                                            </blockquote>
+                                        </div>
+                                        <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
+                                        <div class="col--1-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe suscipit maiores consequatur laudantium odit similique nisi earum cumque mollitia perferendis esse nulla iure exercitationem architecto a at commodi, velit eos, nemo alias ad, sit praesentium.</div>
+                                    </div>
+                                </div>
+                                <div id="tab-3" class="tabs_content-item">
+                                    3
+                                </div>
+                                <div id="tab-4" class="tabs_content-item">
+                                    4
+                                </div>
+                                <div id="tab-5" class="tabs_content-item">
+                                    5
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="hero-tile">
-                            <h6 class="about-hero">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum mollitia, cumque sit libero ea natus. Et numquam ipsam, odio nihil rerum repellat nobis impedit non, incidunt, rem perspiciatis obcaecati.</h6>
-                            <a href="#" class="hero-tile-img">
-                                <img src="img/Steve-Anders.jpg" alt="hero">
-                            </a>
-                            <div class="name-hero text-uppercase text-center d-flex flex-column">
-                                <span>Steve ANDERS </span>
-                                <span>Developer</span>
+                </section>
+                <section class="section exclusive">
+                    <div class="container exclusive_container">
+                        <div class="row exclusive_row">
+                            <div class="col--1-2">
+                                <h2 class="section_title section_title--alt">Looking for exclusive digital services?</h2>
+                                <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
+                                <p>Integer non dapibus diam, ac eleifend lectus.</p>
+                                <a href="#contact" class="btn_base">Lets talk</a>
+                            </div>
+                            <div class="col--1-2">
+                                <div class="exclusive_img">
+                                    <img src="img/imac.png" width="631" alt="image description">
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+                 <section id="portfolio" class="section_portfolio">
+                     <div class="container-portfolio">
+                         <h2 class="section_title text-center">portfolio</h2>
+                         <div class="portfolio_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore soluta suscipit necessitatibus quisquam aut rerum dolore eos debitis non! Debitis voluptas quibusdam similique maxime quisquam mollitia cum eaque vitae eligendi repudiandae ea, ducimus hic tempora deserunt, non nemo sit voluptates voluptatem quasi eos quam dolore?</div>
+                         <div class="tabs_holder">
+                             <ul class="tabs_list">
+                                 <li class="tabs_list-item-portfolio">
+                                     <a href="#tab-6" class="tabs_link js_tabs-link tab-active">all works</a>             
+                                 </li>
+                                 <li class="tabs_list-item-portfolio">
+                                     <a href="#tab-7" class="tabs_link js_tabs-link">branding</a>                         
+                                 </li>
+                                 <li class="tabs_list-item-portfolio">
+                                     <a href="#tab-8" class="tabs_link js_tabs-link">design</a>                          
+                                 </li>
+                                 <li class="tabs_list-item-portfolio">
+                                     <a href="#tab-9" class="tabs_link js_tabs-link">photography</a>                      
+                                 </li>                                
+                             </ul>
+                             <div class="tabs_content">
+                                <div id="tab-6" class="tabs_content-item tab-active">
+                                    <div class="row">
+                                        <div class="col-1-3-1">
+                                            <img src="img/bg-1.png" alt="foto">
+                                            <img src="img/bg-4.png" alt="foto">
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <img src="img/bg-2.png" alt="foto">
+                                            <img src="img/bg-5.png" alt="foto">
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <img src="img/bg-3.png" alt="foto">
+                                            <img src="img/bg-6.png" alt="foto">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-7" class="tabs_content-item">
+                                    7
+                                </div>
+                                <div id="tab-8" class="tabs_content-item">
+                                    8
+                                </div>
+                                <div id="tab-9" class="tabs_content-item">
+                                    9
+                                </div>
+                             </div>
+                         </div>
+                     </div>
+                </section>
+            </section>
+            <section class="section start-project">
+                <div class="container start-project_container">
+                    <div class="row start-project_row d-flex flex-column">                        
+                        <h2 class="section_title section_title--alt">like our creative works?</h2>
+                        <a href="#contact" class="btn_base">start project</a>                   
                     </div>
                 </div>
-            </div>
-        </section>
-      </main>
-      <footer class="footer"></footer>
+            </section>      
+            </main>
+            <footer class="footer"></footer>
+        </div>
     </div>
-  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
