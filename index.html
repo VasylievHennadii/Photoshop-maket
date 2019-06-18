@@ -7,6 +7,7 @@
     <title>Landing</title>
     <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -51,7 +52,7 @@
                             <div class="col--1-3">
                                 <blockquote >
                                     <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
-                                    <cite>— Louis Kahn</cite>
+                                    <cite class="about-us_author">— Louis Kahn</cite>
                                 </blockquote>
                             </div>
                             <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
@@ -86,26 +87,46 @@
                     <div class="container">
                         <h2 class="section_title text-center">Services</h2>
                         <div class="tabs_holder">
-                            <ul class="tabs_list">
-                                <li class="tabs_list-item flex-column">
-                                    <img src="img/branding.png" width="70" height="90" alt="logo">
-                                    <a href="#tab-1" class="tabs_link js_tabs-link tab-active">branding</a>
+                            <ul class="tabs_list-service">
+                                <li class="tabs_list-item flex-column">                                    
+                                    <a href="#tab-1" class="tabs_link js_tabs-link tab-active">
+                                        <div class="benefits_block">
+                                            <i class="icon-strategy"></i>
+                                            <div class="benefits_title">brending</div>                           
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="tabs_list-item flex-column">
-                                    <img src="img/web-design.png" width="70" height="90" alt="logo">
-                                    <a href="#tab-2" class="tabs_link js_tabs-link">web design</a>
+                                    <a href="#tab-2" class="tabs_link js_tabs-link">
+                                        <div class="benefits_block">
+                                            <i class="icon-desktop"></i>
+                                            <div class="benefits_title">web design</div>                           
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="tabs_list-item flex-column">
-                                    <img src="img/graphic-design.png" width="70" height="90" alt="logo">
-                                    <a href="#tab-3" class="tabs_link js_tabs-link">graphic design</a>
+                                    <a href="#tab-3" class="tabs_link js_tabs-link">
+                                        <div class="benefits_block">
+                                            <i class="icon-tools"></i>
+                                            <div class="benefits_title">graphic design</div>                           
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="tabs_list-item flex-column">
-                                    <img src="img/development.png" width="70" height="90" alt="logo">
-                                    <a href="#tab-4" class="tabs_link js_tabs-link">development</a>
+                                    <a href="#tab-4" class="tabs_link js_tabs-link">
+                                        <div class="benefits_block">
+                                            <i class="icon-gears"></i>
+                                            <div class="benefits_title">development</div>                           
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="tabs_list-item flex-column ">
-                                    <img src="img/photography.png" width="70" height="90" alt="logo">
-                                    <a href="#tab-5" class="tabs_link js_tabs-link">photography</a>
+                                    <a href="#tab-5" class="tabs_link js_tabs-link">
+                                        <div class="benefits_block">
+                                            <i class="icon-camera"></i>
+                                            <div class="benefits_title">photografy</div>                           
+                                        </div>
+                                    </a>
                                 </li>
                             </ul>
                             <div class="tabs_content">
@@ -114,7 +135,7 @@
                                         <div class="col--1-3">
                                             <blockquote >
                                                 <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
-                                                <cite>— Louis Kahn</cite>
+                                                <cite class="about-us_author">— Louis Kahn</cite>
                                             </blockquote>
                                         </div>
                                         <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
@@ -126,7 +147,7 @@
                                         <div class="col--1-3">
                                             <blockquote >
                                                 <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
-                                                <cite>— Louis Kahn</cite>
+                                                <cite class="about-us_author">— Louis Kahn</cite>
                                             </blockquote>
                                         </div>
                                         <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
@@ -134,13 +155,40 @@
                                     </div>
                                 </div>
                                 <div id="tab-3" class="tabs_content-item">
-                                    3
+                                    <div class="row">
+                                        <div class="col--1-3">
+                                            <blockquote >
+                                                <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                                <cite class="about-us_author">— Louis Kahn</cite>
+                                            </blockquote>
+                                        </div>
+                                        <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
+                                        <div class="col--1-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe suscipit maiores consequatur laudantium odit similique nisi earum cumque mollitia perferendis esse nulla iure exercitationem architecto a at commodi, velit eos, nemo alias ad, sit praesentium.</div>
+                                    </div>
                                 </div>
                                 <div id="tab-4" class="tabs_content-item">
-                                    4
+                                    <div class="row">
+                                        <div class="col--1-3">
+                                            <blockquote >
+                                                <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                                <cite class="about-us_author">— Louis Kahn</cite>
+                                            </blockquote>
+                                        </div>
+                                        <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
+                                        <div class="col--1-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe suscipit maiores consequatur laudantium odit similique nisi earum cumque mollitia perferendis esse nulla iure exercitationem architecto a at commodi, velit eos, nemo alias ad, sit praesentium.</div>
+                                    </div>
                                 </div>
                                 <div id="tab-5" class="tabs_content-item">
-                                    5
+                                    <div class="row">
+                                        <div class="col--1-3">
+                                            <blockquote >
+                                                <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                                <cite class="about-us_author">— Louis Kahn</cite>
+                                            </blockquote>
+                                        </div>
+                                        <div class="col--1-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore non libero delectus ducimus dolor, cum impedit incidunt voluptate ipsam ipsum quis. Deserunt eveniet necessitatibus nobis modi dicta eos excepturi?</div>
+                                        <div class="col--1-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe suscipit maiores consequatur laudantium odit similique nisi earum cumque mollitia perferendis esse nulla iure exercitationem architecto a at commodi, velit eos, nemo alias ad, sit praesentium.</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -186,46 +234,326 @@
                                 <div id="tab-6" class="tabs_content-item tab-active">
                                     <div class="row">
                                         <div class="col-1-3-1">
-                                            <img src="img/bg-1.png" alt="foto">
-                                            <img src="img/bg-4.png" alt="foto">
+                                            <div class="style_img">
+                                                <img src="img/bg-1.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-4.jpg" alt="foto">
+                                            </div>                                           
                                         </div>
                                         <div class="col-1-3-1">
-                                            <img src="img/bg-2.png" alt="foto">
-                                            <img src="img/bg-5.png" alt="foto">
+                                            <div class="style_img">
+                                                <img src="img/bg-2.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-5.jpg" alt="foto">
+                                            </div>
                                         </div>
                                         <div class="col-1-3-1">
-                                            <img src="img/bg-3.png" alt="foto">
-                                            <img src="img/bg-6.png" alt="foto">
+                                            <div class="style_img">
+                                                <img src="img/bg-3.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-6.jpg" alt="foto">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div id="tab-7" class="tabs_content-item">
-                                    7
+                                    <div class="row">
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-6.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-3.jpg" alt="foto">
+                                            </div>                                           
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-1.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-4.jpg" alt="foto">
+                                            </div>
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-2.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-5.jpg" alt="foto">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div id="tab-8" class="tabs_content-item">
-                                    8
+                                    <div class="row">
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-5.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-2.jpg" alt="foto">
+                                            </div>                                           
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-6.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-3.jpg" alt="foto">
+                                            </div>
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-1.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-4.jpg" alt="foto">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div id="tab-9" class="tabs_content-item">
-                                    9
+                                    <div class="row">
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-4.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-1.jpg" alt="foto">
+                                            </div>                                           
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-5.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-2.jpg" alt="foto">
+                                            </div>
+                                        </div>
+                                        <div class="col-1-3-1">
+                                            <div class="style_img">
+                                                <img src="img/bg-6.jpg" alt="foto">
+                                            </div>
+                                            <div class="style_img">
+                                                <img src="img/bg-3.jpg" alt="foto">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                              </div>
                          </div>
                      </div>
+                </section>            
+                <section class="section start-project">
+                    <div class="container start-project_container">
+                        <div class="row start-project_row d-flex flex-column">                        
+                            <h2 class="section_title section_title--alt">like our creative works?</h2>
+                            <a href="#contact" class="btn_base">start project</a>                   
+                        </div>
+                    </div>
                 </section>
-            </section>
-            <section class="section start-project">
-                <div class="container start-project_container">
-                    <div class="row start-project_row d-flex flex-column">                        
-                        <h2 class="section_title section_title--alt">like our creative works?</h2>
-                        <a href="#contact" class="btn_base">start project</a>                   
+                <section class="section benefits">
+                    <div class="container">
+                        <h2 class="section_title text-center">Why choose us?</h2>
+                        <div class="row">
+                            <div class="col--1-3">
+                                <div class="benefits_block">
+                                    <i class="icon-flag"></i>
+                                    <div class="benefits_title">We're creative</div>
+                                    <div class="benefits_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis harum commodi expedita voluptates eligendi quos natus, voluptatem ullam consequatur sed!</div>
+                                </div>
+                            </div>
+                            <div class="col--1-3">
+                                <div class="benefits_block">
+                                    <i class="icon-clock"></i>
+                                    <div class="benefits_title">We're punctual</div>
+                                    <div class="benefits_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis harum commodi expedita voluptates eligendi quos natus, voluptatem ullam consequatur sed!</div>
+                                </div>
+                            </div>
+                            <div class="col--1-3">
+                                <div class="benefits_block">
+                                    <i class="icon-hotairballoon"></i>
+                                    <div class="benefits_title">We have magic</div>
+                                    <div class="benefits_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis harum commodi expedita voluptates eligendi quos natus, voluptatem ullam consequatur sed!</div>
+                                </div>
+                            </div>
+                            <div class="col--1-3">
+                                <div class="benefits_block">
+                                    <i class="icon-heart"></i>
+                                    <div class="benefits_title">We love minimalism</div>
+                                    <div class="benefits_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis harum commodi expedita voluptates eligendi quos natus, voluptatem ullam consequatur sed!</div>
+                                </div>
+                            </div>
+                            <div class="col--1-3">
+                                <div class="benefits_block">
+                                    <i class="icon-linegraph"></i>
+                                    <div class="benefits_title">We're responsile</div>
+                                    <div class="benefits_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis harum commodi expedita voluptates eligendi quos natus, voluptatem ullam consequatur sed!</div>
+                                </div>
+                            </div>
+                            <div class="col--1-3">
+                                <div class="benefits_block">
+                                    <i class="icon-chat"></i>
+                                    <div class="benefits_title">We're frendly</div>
+                                    <div class="benefits_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis harum commodi expedita voluptates eligendi quos natus, voluptatem ullam consequatur sed!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section testimonials">
+                    <div class="container">
+                        <h2 class="section_title section_title--alt section_title--iconed text-center">What people say?</h2>
+                        <div class="testimonials_slider">
+                            <div class="testimonials_slide">
+                                <blockquote class="testimonial">
+                                    <q class="testimonial_text">Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam dapibus. Thanks!</q>
+                                    <cite class="testimonial_author">John Doe, doodle inc</cite>
+                                </blockquote>
+                            </div>
+                            <div class="testimonials_slide">
+                                <blockquote class="testimonial">
+                                    <q class="testimonial_text">Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam dapibus. Thanks!</q>
+                                    <cite class="testimonial_author">John Doe, doodle inc</cite>
+                                </blockquote>
+                            </div>
+                            <div class="testimonials_slide">
+                                <blockquote class="testimonial">
+                                    <q class="testimonial_text">Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam dapibus. Thanks!</q>
+                                    <cite class="testimonial_author">John Doe, doodle inc</cite>
+                                </blockquote>
+                            </div>
+                            <div class="testimonials_slide">
+                                <blockquote class="testimonial">
+                                    <q class="testimonial_text">Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam dapibus. Thanks!</q>
+                                    <cite class="testimonial_author">John Doe, doodle inc</cite>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials_nav"></div>
+                </section>
+                <section class="section preview">
+                    <div class="container">
+                        <div class="preview_title">
+                            <h2 class="preview_titles-news">Latest News</h2>
+                            <a href="#" class="preview_title-blog">All News in our blog></a>
+                        </div>
+                        <div class="row">
+                            <div class="col--1-3">
+                                <div class="style_img">
+                                    <img src="img/news-img-1.jpg" alt="foto">
+                                </div>
+                            </div>                        
+                            <div class="col--1-3">
+                                <div class="style_img">
+                                    <img src="img/news-img-2.jpg" alt="foto">
+                                </div>
+                            </div>                        
+                            <div class="col--1-3">
+                                <div class="style_img">
+                                    <img src="img/news-img-3.jpg" alt="foto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col--1-3">                                
+                                <article class="article_title">New Web Design Trends</article>
+                                <div class="news-post">
+                                    <span class="article_title-author">John Doe</span>
+                                    <span class="article_title-date">10 December</span>
+                                </div>
+                                <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem deleniti dolorem molestias atque quas dolorum soluta labore laboriosam, necessitatibus nihil natus dignissimos libero, asperiores ea.</p>
+                                <a href="#" class="btn_base">read more ></a>
+                            </div>
+                            <div class="col--1-3">
+                                <article class="article_title">Minimalistic Design Forever</article>
+                                <div class="news-post">
+                                    <span class="article_title-author">John Doe</span>
+                                    <span class="article_title-date">9 December</span>
+                                </div>
+                                <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem deleniti dolorem molestias atque quas dolorum soluta labore laboriosam, necessitatibus nihil natus dignissimos libero, asperiores ea.</p>
+                                <a href="#" class="btn_base">read more ></a>
+                            </div>
+                            <div class="col--1-3">
+                                <article class="article_title">Hipster’s Style in Web</article>
+                                <div class="news-post">
+                                    <span class="article_title-author">John Doe</span>
+                                    <span class="article_title-date">7 December</span>
+                                </div>
+                                <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem deleniti dolorem molestias atque quas dolorum soluta labore laboriosam, necessitatibus nihil natus dignissimos libero, asperiores ea.</p>
+                                <a href="#" class="btn_base">read more ></a>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="mountains">
+                        <a href="#" class="mountains_down">
+                            <img src="img/mountains.jpg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="social_networks">
+                        <div class="social_networks-list">
+                            <div class="social_networks-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="social_networks-down">
+                                    <div class="social_networks-item-i">
+                                        <i class="icon-facebook"></i>
+                                    </div> 
+                                </a>
+                            </div>
+                            <div class="social_networks-item">
+                                <a href="https://twitter.com/" target="_blank" class="social_networks-down">
+                                    <div class="social_networks-item-i">
+                                    <i class="icon-twitter"></i>
+                                    </div> 
+                                </a>
+                            </div>
+                            <div class="social_networks-item">
+                                <a href="https://www.behance.net/" target="_blank" class="social_networks-down">
+                                    <div class="social_networks-item-i">
+                                    <i class="icon-behance"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="social_networks-item">
+                                <a href="https://www.linkedin.com/" target="_blank" class="social_networks-down">
+                                    <div class="social_networks-item-i">
+                                    <i class="icon-linkedin"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="social_networks-item">
+                                <a href="https://www.pinterest.com/" target="_blank" class="social_networks-down">
+                                    <div class="social_networks-item-i">
+                                    <i class="icon-pinterest"></i>
+                                    </div>    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright d-flex flex-column text-center">
+                        <span class="copyright-title">© Rhythm 2014</span>                        
+                        <span class="copyright-item">Made with love for great people</span>
+                    </div>
+                    <div class="button_home">
+                        <div class="button-home-i">
+                            <a href="" class="button-home-down">
+                                <i class="icon-caret-up"></i>
+                            </a>                            
+                        </div>
                     </div>
                 </div>
-            </section>      
-            </main>
-            <footer class="footer"></footer>
+            </footer>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
