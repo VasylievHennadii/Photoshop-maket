@@ -21,3 +21,9 @@ $('.testimonials_slider').slick({
     prevArrow: '<button class="testimonials_arrow testimonials_prev"><i class="icon-angle-down"></i></button>',
     nextArrow: '<button class="testimonials_arrow testimonials_next"><i class="icon-angle-down"></i></button>'
   });
+
+// пример работы с fake_placeholder комменты к Lesson6
+// if($('.form_input').val() !== '') {
+//   $('.form_input').next('.fake_placeholder').hide(300);
+// }
+
