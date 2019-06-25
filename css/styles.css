@@ -338,6 +338,7 @@ p {
 .section_title--alt {
     margin-bottom: 20px;
     color: #fff;
+    text-align: center;
 }
 
 .section_title--iconed {
@@ -506,7 +507,7 @@ ul.tabs_list {
 }
 
 li.tabs_list-item-portfolio {
-    width: 10%;
+    width: 100%;
     align-items: center;
 }
 
@@ -1087,12 +1088,48 @@ li.tabs_list-item-portfolio {
         font-size: 24px;
         letter-spacing: 0.3em;
     }
+    
+    .portfolio_text {
+        margin: 0 15px 60px;
+    }
+
+    .row-subscribe {        
+        width: 90%;
+    }    
 }
 
-@media( max-width: 639px) {
+@media(max-width: 767px) {
+    .row-subscribe {
+        padding-left: 25px;
+        width: 90%;
+    }
+
+    .contact_link {
+        font-size: 12px;
+    }
+
+    .benefits_title {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 639px) {
     .col--tab-1-1 {
         width: 100%;
         /* margin-bottom: 30px; */
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .exclusive_img {
+        position: relative;
+        display: inline-block;
+        top: 0;
+        right: 0;
     }
 
     .tabs_list {
@@ -1105,17 +1142,69 @@ li.tabs_list-item-portfolio {
         width: 100%;
     }
 
+    .tabs_list-service {
+        display: block;
+    }
+
+    .benefits_block {
+        margin: 30px 0;
+    }
+
+    .benefits_text {
+        text-align: center;
+    }
+    
+    li.tabs_list-item {
+        width: 100%;
+    }
+
     .tabs_link {
         background-color: #e7e7e7;
         display: block;
         padding: 4px 12px;
-        width: 100%;
+        width: 100%;        
         text-align: center;
+        margin: 15px;
     }
 
     .tabs_link.tab-active {
-        background-color: #000;
+        background-color: green;
         color: #fff;
+    }
+    
+    .testimonial_text {
+        font-size: 13px;
+    }
+    
+    .style_img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .btn_base-mob {
+        width: 100%;
+    }
+
+    .article_title,
+    .news-post {
+        text-align: center;
+    }
+
+    .form_footer {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width: 413px) {
+
+    .hero_text {
+        font: 14px 'Dosis', Arial, Helvetica, sans-serif;
+    }
+
+    .preview_title-blog {
+        font: 8px 'Dosis', Arial, Helvetica, sans-serif;
     }
 }
 
